@@ -1,7 +1,8 @@
 # MCMC_IBDfinder
-This is an old program (from 2011) for estimating probabilities of IBD sharing among multiple individuals. 
+This is an old c++ program (from 2011) for estimating probabilities of identity by descent (IBD) sharing among multiple individuals. 
 
-I have not been updated for a while but have added it here to make sure it is avaiable in case someone finds it potentially useful (I still use it myself from time to time :-))
-
-The method that is implemented in the program is described in this Genome Reseach paper: https://genome.cshlp.org/content/early/2011/04/14/gr.115360.110.abstract 
+More specifically, it estimates posterior probabilities of IBD sharing between multiple individuals using unphased single nucleotide
+polymorphism (SNP) data. The program is an implementation of the Markov Chain Monte Carlo method described in this Genome Research paper: https://genome.cshlp.org/content/early/2011/04/14/gr.115360.110.abstract 
+ 
+It is currently not available for windows. Also, it has not updated for a while, but has been added here to make sure it is avaiable in case someone finds it potentially useful (I still use it myself from time to time :-))
 
